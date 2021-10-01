@@ -32,28 +32,18 @@
                     echo '<div class="left">';
 
                         for($i = 0; $i < $row; $i++) {
-
-                            
                             $hashes = $i + 1;
                             echo '<div class="row">';
-                                
                                 echo str_repeat('<div class="block-empty"></div>', $width - $hashes);
-
-                                
                                 echo str_repeat('<div class="block"></div>', $hashes);
                             echo '</div>';
                         }
                     echo '</div>';
                     echo '<div class="right">';
                         for($i = 0; $i < $row; $i++) {
-
-                            
                             $hashes = $i + 1;
                             echo '<div class="row">';
-                                
                                 echo str_repeat('<div class="block-empty"></div>', $width - $hashes);
-
-                                
                                 echo str_repeat('<div class="block"></div>', $hashes);
                             echo '</div>';
                         }
