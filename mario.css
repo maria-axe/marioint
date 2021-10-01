@@ -1,0 +1,86 @@
+
+body {
+    background-image: url("img/mariosky.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.mario-jumping {
+    background-image: url("img/mario-jumping.png");
+    position: relative;
+    margin-top: auto;
+}
+
+.mario-jumping img { 
+    height: 40px;
+    width: 20px;
+
+}
+
+
+.block {
+    background-image: url("img/tijoloretro.jpeg");
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+}
+
+.block-empty {
+    width: 20px;
+    height: 20px;
+}
+
+.mario-die {
+    margin-top: auto;
+}
+
+.piramide {
+    display: flex;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+}
+.left {
+    margin-right: 40px;
+}
+.right {
+
+    transform: scaleX(-1);
+}
+
+.right .block{
+
+    transform: scaleX(-1);
+}
+
+.error {
+    color: #ff0000;
+    font-size: 15px;
+    font-weight: bold;
+}
