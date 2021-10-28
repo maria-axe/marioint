@@ -43,8 +43,8 @@
                         for($i = 0; $i < $row; $i++) {
                             $hashes = $i + 1;
                             echo '<div class="row">';
-                                echo str_repeat('<div class="block-empty"></div>', $width - $hashes);
                                 echo str_repeat('<div class="block"></div>', $hashes);
+                                echo str_repeat('<div class="block-empty"></div>', $width - $hashes);
                             echo '</div>';
                         }
                     echo '</div>';

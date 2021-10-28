@@ -69,15 +69,6 @@ button {
 .left {
     margin-right: 40px;
 }
-.right {
-
-    transform: scaleX(-1);
-}
-
-.right .block{
-
-    transform: scaleX(-1);
-}
 
 .error {
     color: #ff0000;
